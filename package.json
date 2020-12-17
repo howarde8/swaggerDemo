@@ -1,0 +1,11 @@
+{
+  "name": "swaggerdemo",
+  "version": "0.1.0",
+  "description": "Swagger UI Demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Howard Yang",
+  "license": "MIT"
+}
