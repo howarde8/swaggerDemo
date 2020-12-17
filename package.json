@@ -4,12 +4,13 @@
   "description": "Swagger UI Demo",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "author": "Howard Yang",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.6",
     "swagger-ui-express": "^4.1.5"
   }
 }
