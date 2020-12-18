@@ -1,15 +1,16 @@
 {
   "name": "swaggerdemo",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Swagger UI Demo",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon -e js,json,yml index.js"
   },
   "author": "Howard Yang",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
+    "json-schema-ref-parser": "^9.0.6",
     "nodemon": "^2.0.6",
     "swagger-ui-express": "^4.1.5",
     "yamljs": "^0.3.0"

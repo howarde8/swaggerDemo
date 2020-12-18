@@ -1,0 +1,15 @@
+users:
+  get:
+    summary: Returns a list of users
+    responses:
+      '200':
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                type: string
+              example:
+                - User 1
+                - User 2
+                - User 3
